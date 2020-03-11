@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("9.png");
+}
+
+.container {
+    width: 700px;
+    height: 500px;
+    background: #fff;
+    margin: 6% auto;
+    border-radius: 5px;
+}
+
+#post1, #reply1, #reply2 {
+    width: 500px;
+    height: 50px;
+    border: 2px solid rgb(228, 211, 60);
+    margin-left: 14%;
+    border-radius: 5px;
+    display: inline-block;
+}
+#post1{
+    margin-top: 3.5rem;
+}
+
+textarea {
+    width: 300px;
+    height: 60px;
+    margin: 1rem 0 1rem 31%;
+    border-radius: 5px;
+}
+.button-flex {
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 5px 30px;
+    margin: 1rem 2rem;
+    cursor: pointer;
+}

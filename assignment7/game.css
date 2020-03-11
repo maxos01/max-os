@@ -1,0 +1,52 @@
+#squares-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#squares-layer {
+    position: relative;
+    width: 700px;
+    height: 500px;   
+    border: 3px solid black;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    background: url("11.png");
+    font-size: 24px;
+}
+#squares-layer {
+    padding: 1rem;
+    background-color: #eee;
+}
+button {
+    font-size: 30px;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #f2ff3c;
+    color: #000;
+}

@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("10.png");
+}
+
+form {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+legend {
+    color: rgb(235, 12, 105);
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline rgb(235, 12, 105);
+    padding: 0 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s;
+}
+fieldset {
+    padding: 1rem;
+    line-height: 2.4rem;
+    font-size: 1rem;
+}
+.btnregis {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+.btnregis  input{
+    padding: 5px 10px;
+    margin: 0 2rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgb(235, 12, 105);
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnlog {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+.btnlog  input{
+    padding: 5px 10px;
+    margin: 0 2rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgb(235, 12, 105);
+    color: #fff;
+    cursor: pointer;
+}
